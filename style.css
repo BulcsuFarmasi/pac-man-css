@@ -48,6 +48,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+.pacman__food {
+  position: absolute;
+  width: 15px;
+  height: 15%;
+  border-radius: 50%;
+  background: #fff;
+  top: 40%;
+  left: 120px;
+}
+
 @keyframes eat {
   0% {
     clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
